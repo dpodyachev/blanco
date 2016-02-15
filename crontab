@@ -1,0 +1,1 @@
+3,33 * * * * cd /home/www/mws.frenchytv.net/stalker_portal/server/tasks/ ; php epg7.php 2>&1
