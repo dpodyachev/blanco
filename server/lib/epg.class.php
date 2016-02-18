@@ -61,7 +61,7 @@ class Epg implements \Stalker\Lib\StbApi\Epg
 
         $str = "From {$setting['uri']}\n";
 
-        if (strpos($setting['uri'], 'http') === 0){
+        if (strpos($setting['uri'], 'http') === 0){	//cheking for Salva
             $etag = '';
             $headers = get_headers($setting['uri'], 1);
 
